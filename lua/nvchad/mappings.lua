@@ -74,6 +74,7 @@ map("n", "<leader>gt", "<cmd>Telescope git_status<CR>", { desc = "Telescope Git 
 map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "Telescope Pick hidden term" })
 map("n", "<leader>th", "<cmd>Telescope themes<CR>", { desc = "Telescope Nvchad themes" })
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Telescope Find files" })
+map("n", "<leader>fs", "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", { desc = "Telescope Find symbols" })
 map(
   "n",
   "<leader>fa",
